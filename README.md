@@ -26,7 +26,7 @@ cd components
 
 2. Clone this repository:
 ```bash
-git clone https://github.com/yourusername/prayer-times-esp-idf.git
+git clone https://github.com/hmd83/Aladhan_ESP-IDF.git
 ```
 
 ### Configuration
