@@ -1,0 +1,13 @@
+menu "Prayer Times Configuration"
+    config PRAYER_TIMES_MAX_RETRY
+        int "Maximum retry attempts for HTTP requests"
+        default 3
+        help
+            Maximum number of retry attempts when HTTP request fails.
+  
+    config PRAYER_TIMES_TIMEOUT_MS
+        int "HTTP request timeout in milliseconds"
+        default 10000
+        help
+            Timeout for HTTP requests in milliseconds.
+  endmenu
